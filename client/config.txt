@@ -1,0 +1,7 @@
+base_url||http://127.0.0.1:8000
+log_path||D:\Nathan\電表節電系統\client\log
+mac||b827eb29aef1
+meter||IFCAHU2
+last_read_time||2020-07-01
+hour||15
+minute||0

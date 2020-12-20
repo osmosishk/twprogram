@@ -1,0 +1,6 @@
+1、檢查python版本
+python -V
+2、如果是2.*，則昇級到3.6或以上
+wget https://www.python.org/ftp/python/3.6.5/Python-3.6.5.tgz
+參照如下文檔：
+https://blog.csdn.net/c__try/article/details/88886608#%E5%AE%89%E8%A3%85python3.6

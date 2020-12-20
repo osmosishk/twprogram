@@ -1,0 +1,52 @@
+[2020-09-26 14:25:50,810] [exception.py:115] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\Python\Python38-32\lib\site-packages\django\utils\deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "D:\Nathan\電表節電系統\meterApi\meterApi\myMiddleware.py", line 13, in process_request
+    token_get=des_descrypt(token_get)
+  File "D:\Nathan\電表節電系統\meterApi\meterApi\des_verify.py", line 28, in des_descrypt
+    de = k.decrypt(binascii.a2b_hex(s), padmode=PAD_PKCS5)
+TypeError: argument should be bytes, buffer or ASCII string, not 'NoneType'
+[2020-09-26 14:25:50,997] [basehttp.py:124] [basehttp:log_message] [ERROR]- "GET / HTTP/1.1" 500 64894
+[2020-09-26 14:32:09,802] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /meter/ HTTP/1.1" 200 25
+[2020-09-26 14:32:09,933] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /upload/ HTTP/1.1" 200 9
+[2020-09-26 14:32:10,439] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload/ HTTP/1.1" 200 1
+[2020-09-26 14:32:10,575] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload/ HTTP/1.1" 200 1
+[2020-09-26 14:32:10,706] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload/ HTTP/1.1" 200 1
+[2020-09-26 14:32:10,829] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload/ HTTP/1.1" 200 1
+[2020-09-26 14:32:10,979] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload/ HTTP/1.1" 200 1
+[2020-09-26 14:32:11,097] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload/ HTTP/1.1" 200 1
+[2020-09-26 14:32:11,233] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload/ HTTP/1.1" 200 1
+[2020-09-26 14:32:11,336] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload/ HTTP/1.1" 200 1
+[2020-09-26 14:32:11,471] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload/ HTTP/1.1" 200 1
+[2020-09-26 14:33:41,124] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /meter/ HTTP/1.1" 200 25
+[2020-09-26 14:33:41,260] [basehttp.py:124] [basehttp:log_message] [INFO]- "GET /upload/ HTTP/1.1" 200 9
+[2020-09-26 14:33:41,692] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload/ HTTP/1.1" 200 1
+[2020-09-26 14:33:41,809] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload/ HTTP/1.1" 200 1
+[2020-09-26 14:33:41,952] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload/ HTTP/1.1" 200 1
+[2020-09-26 14:33:42,052] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload/ HTTP/1.1" 200 1
+[2020-09-26 14:33:42,170] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload/ HTTP/1.1" 200 1
+[2020-09-26 14:33:42,299] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload/ HTTP/1.1" 200 1
+[2020-09-26 14:33:42,445] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload/ HTTP/1.1" 200 1
+[2020-09-26 14:33:42,552] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload/ HTTP/1.1" 200 1
+[2020-09-26 14:33:42,656] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload/ HTTP/1.1" 200 1
+[2020-09-26 15:00:00,418] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload/ HTTP/1.1" 200 61
+[2020-09-26 15:00:00,537] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload/ HTTP/1.1" 200 61
+[2020-09-26 15:00:00,605] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload/ HTTP/1.1" 200 61
+[2020-09-26 15:00:00,711] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload/ HTTP/1.1" 200 61
+[2020-09-26 15:00:00,778] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload/ HTTP/1.1" 200 61
+[2020-09-26 15:00:00,897] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload/ HTTP/1.1" 200 61
+[2020-09-26 15:00:00,992] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload/ HTTP/1.1" 200 61
+[2020-09-26 15:00:01,085] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload/ HTTP/1.1" 200 61
+[2020-09-26 15:00:01,184] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload/ HTTP/1.1" 200 61
+[2020-09-26 15:00:01,284] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload/ HTTP/1.1" 200 61
+[2020-09-26 15:00:01,351] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload/ HTTP/1.1" 200 61
+[2020-09-26 15:00:01,457] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload/ HTTP/1.1" 200 61
+[2020-09-26 15:00:01,532] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload/ HTTP/1.1" 200 61
+[2020-09-26 15:00:01,645] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload/ HTTP/1.1" 200 61
+[2020-09-26 15:00:01,739] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload/ HTTP/1.1" 200 61
+[2020-09-26 15:00:01,832] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload/ HTTP/1.1" 200 61
+[2020-09-26 15:00:01,929] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload/ HTTP/1.1" 200 61
+[2020-09-26 15:00:02,025] [basehttp.py:124] [basehttp:log_message] [INFO]- "POST /upload/ HTTP/1.1" 200 61

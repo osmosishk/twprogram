@@ -1,0 +1,21 @@
+2020-09-25 17:19:00,056-main.py[line52]-INFO-開始讀取配置文件
+2020-09-25 17:19:00,058-main.py[line62]-INFO-配置文件內容：{'mysql_host': '127.0.0.1', 'mysql_user': 'root', 'mysql_pwd': 'Www75!)10', 'mysql_db': 'meter', 'log_path': 'D:\\Nathan\\電表節電系統\\meterApi\\'}
+2020-09-25 17:19:00,066-main.py[line66]-INFO-開始讀取資料庫中待處理文件
+2020-09-25 17:19:00,072-main.py[line74]-INFO-開始解析文件：upload/1-b827eb29aef1-IFCAHU2-2020-07-22.log
+2020-09-25 17:19:00,073-main.py[line76]-ERROR-文件不存在：D:\Nathan\電表節電系統\meterApi\upload/1-b827eb29aef1-IFCAHU2-2020-07-22.log
+2020-09-25 17:19:00,073-main.py[line112]-INFO-待處理文件處理完成
+2020-09-25 17:19:00,532-base.py[line440]-INFO-Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-09-25 17:19:00,534-base.py[line440]-INFO-Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-09-25 17:19:00,535-base.py[line440]-INFO-Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-09-25 17:19:00,536-base.py[line440]-INFO-Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-09-25 17:19:00,537-base.py[line440]-INFO-Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-09-25 17:19:00,539-base.py[line440]-INFO-Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-09-25 17:19:00,544-base.py[line881]-INFO-Added job "log" to job store "default"
+2020-09-25 17:19:00,567-base.py[line881]-INFO-Added job "praseFiles" to job store "default"
+2020-09-25 17:19:00,568-base.py[line881]-INFO-Added job "countMinute" to job store "default"
+2020-09-25 17:19:00,569-base.py[line881]-INFO-Added job "countHour" to job store "default"
+2020-09-25 17:19:00,571-base.py[line881]-INFO-Added job "countDay" to job store "default"
+2020-09-25 17:19:00,572-base.py[line881]-INFO-Added job "countMonth" to job store "default"
+2020-09-25 17:19:00,573-base.py[line166]-INFO-Scheduler started
+2020-09-25 17:19:00,573-base.py[line940]-DEBUG-Looking for jobs to run
+2020-09-25 17:19:00,574-base.py[line1019]-DEBUG-Next wakeup is due at 2020-09-26 00:10:00+08:00 (in 24659.425727 seconds)

@@ -1,0 +1,5 @@
+log_path||C:\Nathan\电表\meterApi\
+mysql_host||127.0.0.1
+mysql_user||root
+mysql_pwd||Www75!)10
+mysql_db||meter

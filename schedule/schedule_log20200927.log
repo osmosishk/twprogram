@@ -1,0 +1,28 @@
+2020-09-27 00:10:00,006-base.py[line144]-INFO-Job "log (trigger: cron[hour='0', minute='10'], next run at: 2020-09-27 00:10:00 CST)" executed successfully
+2020-09-27 00:10:00,008-base.py[line1020]-DEBUG-Next wakeup is due at 2020-09-27 01:00:00+08:00 (in 2999.995343 seconds)
+2020-09-27 01:00:00,004-base.py[line940]-DEBUG-Looking for jobs to run
+2020-09-27 01:00:00,005-base.py[line123]-INFO-Running job "praseFiles (trigger: cron[hour='1'], next run at: 2020-09-27 01:00:00 CST)" (scheduled at 2020-09-27 01:00:00+08:00)
+2020-09-27 01:00:00,006-main.py[line66]-INFO-開始讀取資料庫中待處理文件
+2020-09-27 01:00:00,009-main.py[line112]-INFO-待處理文件處理完成
+2020-09-27 01:00:00,010-base.py[line144]-INFO-Job "praseFiles (trigger: cron[hour='1'], next run at: 2020-09-27 01:00:00 CST)" executed successfully
+2020-09-27 01:00:00,011-base.py[line1020]-DEBUG-Next wakeup is due at 2020-09-27 02:00:00+08:00 (in 3599.995078 seconds)
+2020-09-27 02:00:00,007-base.py[line940]-DEBUG-Looking for jobs to run
+2020-09-27 02:00:00,009-base.py[line123]-INFO-Running job "countMinute (trigger: cron[hour='2'], next run at: 2020-09-27 02:00:00 CST)" (scheduled at 2020-09-27 02:00:00+08:00)
+2020-09-27 02:00:00,010-main.py[line322]-INFO-開始統計countMinute
+2020-09-27 02:00:00,010-main.py[line326]-INFO-大廈：1
+2020-09-27 02:00:00,016-base.py[line1020]-DEBUG-Next wakeup is due at 2020-09-27 03:00:00+08:00 (in 3599.991852 seconds)
+2020-09-27 02:00:00,130-main.py[line326]-INFO-大廈：2
+2020-09-27 02:00:00,134-base.py[line144]-INFO-Job "countMinute (trigger: cron[hour='2'], next run at: 2020-09-28 02:00:00 CST)" executed successfully
+2020-09-27 03:00:00,009-base.py[line940]-DEBUG-Looking for jobs to run
+2020-09-27 03:00:00,010-base.py[line123]-INFO-Running job "countHour (trigger: cron[hour='3'], next run at: 2020-09-27 03:00:00 CST)" (scheduled at 2020-09-27 03:00:00+08:00)
+2020-09-27 03:00:00,015-base.py[line1020]-DEBUG-Next wakeup is due at 2020-09-27 04:00:00+08:00 (in 3599.990200 seconds)
+2020-09-27 03:00:00,112-base.py[line144]-INFO-Job "countHour (trigger: cron[hour='3'], next run at: 2020-09-28 03:00:00 CST)" executed successfully
+2020-09-27 04:00:00,006-base.py[line940]-DEBUG-Looking for jobs to run
+2020-09-27 04:00:00,008-base.py[line1020]-DEBUG-Next wakeup is due at 2020-09-27 05:00:00+08:00 (in 3599.993029 seconds)
+2020-09-27 04:00:00,008-base.py[line123]-INFO-Running job "countDay (trigger: cron[hour='4'], next run at: 2020-09-28 04:00:00 CST)" (scheduled at 2020-09-27 04:00:00+08:00)
+2020-09-27 04:00:00,113-base.py[line144]-INFO-Job "countDay (trigger: cron[hour='4'], next run at: 2020-09-28 04:00:00 CST)" executed successfully
+2020-09-27 05:00:00,003-base.py[line940]-DEBUG-Looking for jobs to run
+2020-09-27 05:00:00,030-base.py[line1020]-DEBUG-Next wakeup is due at 2020-09-28 00:10:00+08:00 (in 68999.970594 seconds)
+2020-09-27 05:00:00,030-base.py[line123]-INFO-Running job "countMonth (trigger: cron[hour='5'], next run at: 2020-09-28 05:00:00 CST)" (scheduled at 2020-09-27 05:00:00+08:00)
+2020-09-27 05:00:03,252-main.py[line194]-INFO-no data in meter_datas,skip.datatable:m_month_count,tm_start:2020-08-01 00:00:00
+2020-09-27 05:00:03,254-base.py[line144]-INFO-Job "countMonth (trigger: cron[hour='5'], next run at: 2020-09-28 05:00:00 CST)" executed successfully

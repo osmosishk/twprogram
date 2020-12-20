@@ -1,0 +1,126 @@
+2020-09-30 09:21:01,945-main.py[line58]-INFO-開始讀取配置文件
+2020-09-30 09:21:01,950-main.py[line68]-INFO-配置文件內容：{'mysql_host': '127.0.0.1', 'mysql_user': 'root', 'mysql_pwd': 'Www75!)10', 'mysql_db': 'meter', 'log_path': 'C:\\Nathan\\电表\\meterApi\\'}
+2020-09-30 09:21:01,950-main.py[line73]-INFO-開始獲取任務時間
+2020-09-30 09:21:01,972-main.py[line90]-INFO-任務時間獲取完成
+2020-09-30 09:31:28,484-main.py[line58]-INFO-開始讀取配置文件
+2020-09-30 09:31:28,485-main.py[line68]-INFO-配置文件內容：{'mysql_host': '127.0.0.1', 'mysql_user': 'root', 'mysql_pwd': 'Www75!)10', 'mysql_db': 'meter', 'log_path': 'C:\\Nathan\\电表\\meterApi\\'}
+2020-09-30 09:31:28,486-main.py[line73]-INFO-開始獲取任務時間
+2020-09-30 09:31:28,502-main.py[line90]-INFO-任務時間獲取完成
+2020-09-30 09:32:00,080-base.py[line440]-INFO-Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-09-30 09:32:00,081-base.py[line440]-INFO-Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-09-30 09:32:00,083-base.py[line881]-INFO-Added job "log" to job store "default"
+2020-09-30 09:32:00,085-base.py[line881]-INFO-Added job "praseFiles" to job store "default"
+2020-09-30 09:32:00,086-base.py[line166]-INFO-Scheduler started
+2020-09-30 09:32:00,087-base.py[line940]-DEBUG-Looking for jobs to run
+2020-09-30 09:32:00,087-base.py[line1020]-DEBUG-Next wakeup is due at 2020-10-01 00:10:00+08:00 (in 52679.912169 seconds)
+2020-09-30 09:32:26,504-main.py[line58]-INFO-開始讀取配置文件
+2020-09-30 09:32:26,505-main.py[line68]-INFO-配置文件內容：{'mysql_host': '127.0.0.1', 'mysql_user': 'root', 'mysql_pwd': 'Www75!)10', 'mysql_db': 'meter', 'log_path': 'C:\\Nathan\\电表\\meterApi\\'}
+2020-09-30 09:32:26,506-main.py[line73]-INFO-開始獲取任務時間
+2020-09-30 09:32:26,522-main.py[line90]-INFO-任務時間獲取完成
+2020-09-30 09:35:23,378-main.py[line58]-INFO-開始讀取配置文件
+2020-09-30 09:35:23,380-main.py[line68]-INFO-配置文件內容：{'mysql_host': '127.0.0.1', 'mysql_user': 'root', 'mysql_pwd': 'Www75!)10', 'mysql_db': 'meter', 'log_path': 'C:\\Nathan\\电表\\meterApi\\'}
+2020-09-30 09:35:23,381-main.py[line73]-INFO-開始獲取任務時間
+2020-09-30 09:35:23,395-main.py[line90]-INFO-任務時間獲取完成
+2020-09-30 09:35:30,302-main.py[line332]-INFO-insert sql:ok for table:m_day_count
+2020-09-30 09:35:30,320-main.py[line337]-INFO-insert sql:ok for table:m_day_count_all
+2020-09-30 09:35:38,908-main.py[line332]-INFO-insert sql:ok for table:m_day_count
+2020-09-30 09:35:38,928-main.py[line337]-INFO-insert sql:ok for table:m_day_count_all
+2020-09-30 09:35:50,311-base.py[line440]-INFO-Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-09-30 09:35:50,312-base.py[line440]-INFO-Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-09-30 09:35:50,313-base.py[line881]-INFO-Added job "log" to job store "default"
+2020-09-30 09:35:50,314-base.py[line881]-INFO-Added job "praseFiles" to job store "default"
+2020-09-30 09:35:50,323-base.py[line166]-INFO-Scheduler started
+2020-09-30 09:35:50,323-base.py[line940]-DEBUG-Looking for jobs to run
+2020-09-30 09:35:50,324-base.py[line1020]-DEBUG-Next wakeup is due at 2020-10-01 00:10:00+08:00 (in 52449.675184 seconds)
+2020-09-30 09:43:49,403-main.py[line58]-INFO-開始讀取配置文件
+2020-09-30 09:43:49,404-main.py[line68]-INFO-配置文件內容：{'mysql_host': '127.0.0.1', 'mysql_user': 'root', 'mysql_pwd': 'Www75!)10', 'mysql_db': 'meter', 'log_path': 'C:\\Nathan\\电表\\meterApi\\'}
+2020-09-30 09:43:49,404-main.py[line73]-INFO-開始獲取任務時間
+2020-09-30 09:43:49,420-main.py[line90]-INFO-任務時間獲取完成
+2020-09-30 09:43:50,101-main.py[line332]-INFO-insert sql:ok for table:m_hour_count
+2020-09-30 09:43:50,118-main.py[line337]-INFO-insert sql:ok for table:m_hour_count_all
+2020-09-30 09:43:50,721-main.py[line332]-INFO-insert sql:ok for table:m_hour_count
+2020-09-30 09:43:50,734-main.py[line337]-INFO-insert sql:ok for table:m_hour_count_all
+2020-09-30 09:45:00,316-base.py[line440]-INFO-Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-09-30 09:45:00,317-base.py[line440]-INFO-Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-09-30 09:45:00,319-base.py[line881]-INFO-Added job "log" to job store "default"
+2020-09-30 09:45:00,320-base.py[line881]-INFO-Added job "praseFiles" to job store "default"
+2020-09-30 09:45:00,327-base.py[line166]-INFO-Scheduler started
+2020-09-30 09:45:00,328-base.py[line940]-DEBUG-Looking for jobs to run
+2020-09-30 09:45:00,329-base.py[line1020]-DEBUG-Next wakeup is due at 2020-10-01 00:10:00+08:00 (in 51899.670948 seconds)
+2020-09-30 16:24:30,133-main.py[line59]-INFO-開始讀取配置文件
+2020-09-30 16:24:30,138-main.py[line69]-INFO-配置文件內容：{'mysql_host': '127.0.0.1', 'mysql_user': 'root', 'mysql_pwd': 'Www75!)10', 'mysql_db': 'meter', 'log_path': 'C:\\Nathan\\电表\\meterApi\\'}
+2020-09-30 16:24:30,139-main.py[line74]-INFO-開始獲取任務時間
+2020-09-30 16:24:30,154-main.py[line91]-INFO-任務時間獲取完成
+2020-09-30 16:24:33,856-main.py[line95]-INFO-開始清理MeterData數據
+2020-09-30 16:25:50,574-main.py[line59]-INFO-開始讀取配置文件
+2020-09-30 16:25:50,576-main.py[line69]-INFO-配置文件內容：{'mysql_host': '127.0.0.1', 'mysql_user': 'root', 'mysql_pwd': 'Www75!)10', 'mysql_db': 'meter', 'log_path': 'C:\\Nathan\\电表\\meterApi\\'}
+2020-09-30 16:25:50,576-main.py[line74]-INFO-開始獲取任務時間
+2020-09-30 16:25:50,591-main.py[line91]-INFO-任務時間獲取完成
+2020-09-30 16:25:52,241-main.py[line95]-INFO-開始清理MeterData數據
+2020-09-30 16:26:20,452-main.py[line59]-INFO-開始讀取配置文件
+2020-09-30 16:26:20,454-main.py[line69]-INFO-配置文件內容：{'mysql_host': '127.0.0.1', 'mysql_user': 'root', 'mysql_pwd': 'Www75!)10', 'mysql_db': 'meter', 'log_path': 'C:\\Nathan\\电表\\meterApi\\'}
+2020-09-30 16:26:20,454-main.py[line74]-INFO-開始獲取任務時間
+2020-09-30 16:26:20,458-main.py[line91]-INFO-任務時間獲取完成
+2020-09-30 16:26:21,834-main.py[line95]-INFO-開始清理MeterData數據
+2020-09-30 16:33:00,775-main.py[line59]-INFO-開始讀取配置文件
+2020-09-30 16:33:00,776-main.py[line69]-INFO-配置文件內容：{'mysql_host': '127.0.0.1', 'mysql_user': 'root', 'mysql_pwd': 'Www75!)10', 'mysql_db': 'meter', 'log_path': 'C:\\Nathan\\电表\\meterApi\\'}
+2020-09-30 16:33:00,776-main.py[line74]-INFO-開始獲取任務時間
+2020-09-30 16:33:00,780-main.py[line91]-INFO-任務時間獲取完成
+2020-09-30 16:33:03,353-main.py[line95]-INFO-開始清理MeterData數據
+2020-09-30 16:38:22,098-main.py[line59]-INFO-開始讀取配置文件
+2020-09-30 16:38:22,099-main.py[line69]-INFO-配置文件內容：{'mysql_host': '127.0.0.1', 'mysql_user': 'root', 'mysql_pwd': 'Www75!)10', 'mysql_db': 'meter', 'log_path': 'C:\\Nathan\\电表\\meterApi\\'}
+2020-09-30 16:38:22,100-main.py[line74]-INFO-開始獲取任務時間
+2020-09-30 16:38:22,114-main.py[line91]-INFO-任務時間獲取完成
+2020-09-30 16:38:22,117-main.py[line112]-INFO-開始讀取資料庫中待處理文件
+2020-09-30 16:38:22,120-main.py[line120]-INFO-開始解析文件：upload/1-b827ebc6c193-IFC46ES-2020-07-14.log
+2020-09-30 16:38:22,142-main.py[line153]-ERROR-invalid literal for int() with base 10: 'Voltage Phase-V L1(V x10)'
+2020-09-30 16:40:57,362-main.py[line157]-INFO-upload/1-b827ebc6c193-IFC46ES-2020-07-14.log解析完成
+2020-09-30 16:40:57,362-main.py[line120]-INFO-開始解析文件：upload/1-b827eb29aef1-IFCAHU2-2020-07-14.log
+2020-09-30 16:40:57,387-main.py[line153]-ERROR-invalid literal for int() with base 10: 'Voltage Phase-V L1(V x10)'
+2020-09-30 16:42:26,294-main.py[line59]-INFO-開始讀取配置文件
+2020-09-30 16:42:26,295-main.py[line69]-INFO-配置文件內容：{'mysql_host': '127.0.0.1', 'mysql_user': 'root', 'mysql_pwd': 'Www75!)10', 'mysql_db': 'meter', 'log_path': 'C:\\Nathan\\电表\\meterApi\\'}
+2020-09-30 16:42:26,296-main.py[line74]-INFO-開始獲取任務時間
+2020-09-30 16:42:26,304-main.py[line91]-INFO-任務時間獲取完成
+2020-09-30 16:42:26,317-main.py[line95]-INFO-開始清理MeterData數據
+2020-09-30 16:43:41,818-main.py[line59]-INFO-開始讀取配置文件
+2020-09-30 16:43:41,819-main.py[line69]-INFO-配置文件內容：{'mysql_host': '127.0.0.1', 'mysql_user': 'root', 'mysql_pwd': 'Www75!)10', 'mysql_db': 'meter', 'log_path': 'C:\\Nathan\\电表\\meterApi\\'}
+2020-09-30 16:43:41,820-main.py[line74]-INFO-開始獲取任務時間
+2020-09-30 16:43:41,835-main.py[line91]-INFO-任務時間獲取完成
+2020-09-30 16:43:41,850-main.py[line95]-INFO-開始清理MeterData數據
+2020-09-30 16:44:00,849-main.py[line107]-INFO-清理MeterData數據操作成功！
+2020-09-30 16:44:08,522-base.py[line440]-INFO-Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-09-30 16:44:08,523-base.py[line440]-INFO-Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-09-30 16:44:08,524-base.py[line440]-INFO-Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-09-30 16:44:08,525-base.py[line881]-INFO-Added job "log" to job store "default"
+2020-09-30 16:44:08,527-base.py[line881]-INFO-Added job "praseFiles" to job store "default"
+2020-09-30 16:44:08,538-base.py[line881]-INFO-Added job "cleanMeterData" to job store "default"
+2020-09-30 16:44:08,539-base.py[line166]-INFO-Scheduler started
+2020-09-30 16:44:08,540-base.py[line940]-DEBUG-Looking for jobs to run
+2020-09-30 16:44:08,540-base.py[line1020]-DEBUG-Next wakeup is due at 2020-10-01 00:00:00+08:00 (in 26151.459297 seconds)
+2020-09-30 16:46:26,683-main.py[line59]-INFO-開始讀取配置文件
+2020-09-30 16:46:26,684-main.py[line69]-INFO-配置文件內容：{'mysql_host': '127.0.0.1', 'mysql_user': 'root', 'mysql_pwd': 'Www75!)10', 'mysql_db': 'meter', 'log_path': 'C:\\Nathan\\电表\\meterApi\\'}
+2020-09-30 16:46:26,685-main.py[line74]-INFO-開始獲取任務時間
+2020-09-30 16:46:26,689-main.py[line91]-INFO-任務時間獲取完成
+2020-09-30 16:46:26,702-main.py[line112]-INFO-開始讀取資料庫中待處理文件
+2020-09-30 16:46:26,717-main.py[line120]-INFO-開始解析文件：upload/1-b827ebc6c193-IFC46ES-2020-07-15.log
+2020-09-30 16:46:26,747-main.py[line153]-ERROR-invalid literal for int() with base 10: 'Voltage Phase-V L1(V x10)'
+2020-09-30 16:47:33,188-main.py[line59]-INFO-開始讀取配置文件
+2020-09-30 16:47:33,189-main.py[line69]-INFO-配置文件內容：{'mysql_host': '127.0.0.1', 'mysql_user': 'root', 'mysql_pwd': 'Www75!)10', 'mysql_db': 'meter', 'log_path': 'C:\\Nathan\\电表\\meterApi\\'}
+2020-09-30 16:47:33,189-main.py[line74]-INFO-開始獲取任務時間
+2020-09-30 16:47:33,204-main.py[line91]-INFO-任務時間獲取完成
+2020-09-30 16:47:33,218-main.py[line95]-INFO-開始清理MeterData數據
+2020-09-30 16:48:06,302-main.py[line59]-INFO-開始讀取配置文件
+2020-09-30 16:48:06,303-main.py[line69]-INFO-配置文件內容：{'mysql_host': '127.0.0.1', 'mysql_user': 'root', 'mysql_pwd': 'Www75!)10', 'mysql_db': 'meter', 'log_path': 'C:\\Nathan\\电表\\meterApi\\'}
+2020-09-30 16:48:06,304-main.py[line74]-INFO-開始獲取任務時間
+2020-09-30 16:48:06,318-main.py[line91]-INFO-任務時間獲取完成
+2020-09-30 16:48:06,331-main.py[line95]-INFO-開始清理MeterData數據
+2020-09-30 16:48:08,739-main.py[line107]-INFO-清理MeterData數據操作成功！
+2020-09-30 16:48:08,943-base.py[line440]-INFO-Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-09-30 16:48:08,944-base.py[line440]-INFO-Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-09-30 16:48:08,945-base.py[line440]-INFO-Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020-09-30 16:48:08,947-base.py[line881]-INFO-Added job "log" to job store "default"
+2020-09-30 16:48:08,948-base.py[line881]-INFO-Added job "praseFiles" to job store "default"
+2020-09-30 16:48:08,949-base.py[line881]-INFO-Added job "cleanMeterData" to job store "default"
+2020-09-30 16:48:08,950-base.py[line166]-INFO-Scheduler started
+2020-09-30 16:48:08,950-base.py[line940]-DEBUG-Looking for jobs to run
+2020-09-30 16:48:08,951-base.py[line1020]-DEBUG-Next wakeup is due at 2020-10-01 00:00:00+08:00 (in 25911.048524 seconds)

@@ -1,0 +1,75 @@
+{% extends base_template %}
+{% load i18n %}
+
+{% block title %}數據統計{% endblock %}
+
+{% block content %}
+<script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
+<div id="main" style="width: 100%;height:800px;"></div>
+<script type="text/javascript">
+    var myChart = echarts.init(document.getElementById('main'));
+    var title_list={{title_list|safe}};
+    var date_list={{date_list|safe}};
+    var kva_list={{kva_list|safe}};
+    var kw_list={{kw_list|safe}};
+    var karl_list={{karl_list|safe}};
+    var ohr_list={{ohr_list|safe}};
+    var minv={{minv}}
+    var option = {
+        title: {
+            text: '{{title}}'
+        },
+        tooltip: {
+            trigger: 'axis'
+        },
+        legend: {
+            data: title_list
+        },
+        grid: {
+            left: '3%',
+            right: '4%',
+            bottom: '3%',
+            containLabel: true
+        },
+        toolbox: {
+            feature: {
+                saveAsImage: {}
+            }
+        },
+        xAxis: {
+            type: 'category',
+            boundaryGap: false,
+            data: date_list
+        },
+        yAxis: {
+            type: 'value',
+            min:minv-10
+        },
+        series: [
+            {
+                name: 'kva',
+                type: 'line',
+                data: kva_list
+            },
+            {
+                name: 'kw',
+                type: 'line',
+                data: kw_list
+            },
+            {
+                name: 'karl',
+                type: 'line',
+                data: karl_list
+            },
+            {
+                name: 'opeationHR',
+                type: 'line',
+                data: ohr_list
+            }
+        ]
+    };
+
+    myChart.setOption(option);
+</script>
+
+{% endblock %}
